@@ -181,7 +181,7 @@ class Controller:
         status_num_series = []
         title_series = []
         title_num_series = []
-        for record in status:
+        for record in status:  # reshape data for for charts
             status_series.append(record[0])
             status_num_series.append(record[1])
         for record in popularity:
