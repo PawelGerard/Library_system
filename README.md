@@ -1,4 +1,4 @@
-### Small library system with simple database to track books, readers and borrows
+### Small library system with simple database to track books, readers and rental
 #### App designed with tkinter, sqlite3 and matplotlib
 
 Functionalities:
