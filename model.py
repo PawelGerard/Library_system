@@ -4,7 +4,6 @@ from sqlite3 import Error
 
 class Model:
     def __init__(self):
-        print('Model')
         self._db = DB()
 
     def get_books(self, search):

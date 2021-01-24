@@ -176,7 +176,6 @@ class Controller:
         self._view.clear_window()
         status = self._model.get_books_statistics_status()
         popularity = self._model.get_books_statistics_popularity()
-        print(popularity)
         status_series = []
         status_num_series = []
         title_series = []
@@ -193,7 +192,6 @@ class Controller:
         self._view.clear_window()
         s = self._model.get_readers_statistics_sex()
         popularity = self._model.get_readers_statistics_popularity()
-        print(popularity)
         s_series = []
         s_num_series = []
         reader_series = []
